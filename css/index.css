@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 16px;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logo {
+    width: 26px;
+    height: 26px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 auto 34px;
+  justify-content: left center;
+  align-items: left center;
+  display: flex;
+  margin-left: 50px;
+}
+
+.bt-login {
+  width: 300px;
+  height: 40px;
+  border-radius: 35px;
+  background: #fff;
+  color: #000;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+#bt-google {
+  background-image: url(../img/logo_google.png);
+  background-repeat: no-repeat;
+  background-position: 35px center;
+  background-size: 20px;
+}
+  
+
+#bt-apple{
+  background-image: url(../img/logo_apple.png);
+  background-repeat: no-repeat;
+background-position: 65px center;
+  background-size: 20px;
+  
+}
+
+.caixa {
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0 16px;
+  border: 2px solid #ffffff2c;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1.1em;
+  margin-left: -1px;
+}
+
+.caixa::placeholder {
+  color: #929292c4;
+}
+
+#esqueceu {
+    margin-top: 20px;
+    width: 300px;
+    height: 34px;
+    border: 2px solid #ffffff2c ;
+    border-radius: 35px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #bt-avancar {
+    width: 300px;
+    height: 34px;
+    border: none;
+    border-radius: 35px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+  }
+  
+#ou {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+#sem-conta {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #ffffff49  ;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+
+#sem-conta a {
+  color: rgb(0, 119, 255);
+  font-weight: none;
+  text-decoration: none;
+}
